@@ -7,13 +7,6 @@ public class OopLearning {
     public static void main(String[] args) {
         System.out.println("Hello, Monster Game!");
 
-        int i = 6;
-        double d = 5.555555;
-        char c = 'x';
-
-        String s = "Hello World";
-        String s2 = "something else";
-
         Goblin g1 = new Goblin(5, 10, 5, 2);
         System.out.println(g1.getHealth());
         g1.setHealth(-50);
@@ -27,7 +20,6 @@ public class OopLearning {
         Dargon d1 = new Dargon();
         Goblin g2 = new Goblin(5, 2, 1, 10);
         Goblin g3 = new Goblin(5, 2, 1, 10);
-
 
     }
 }
